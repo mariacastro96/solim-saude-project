@@ -1,0 +1,30 @@
+.project__container {
+  width: 80vw;
+  margin: auto;
+  padding: 20px 0;
+  text-align: justify;
+}
+.def__cintainer {
+  margin: 20px 0;
+}
+
+.project__title {
+  // font-weight: bold;
+  display: inline-block;
+  margin-bottom: 15px;
+  .project__title--underline {
+    background-color: $solim-green;
+    height: 12px;
+    z-index:-1;
+    margin: 0 !important;
+    margin-top: -15px !important;
+  }
+  p {
+    color: $solim-super-dark-grey;
+    margin: 0 !important;
+    width: auto;
+    z-index:1;
+    padding: 0 5px;
+    font-size: 1.5em;
+  }
+}
