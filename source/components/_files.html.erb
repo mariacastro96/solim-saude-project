@@ -1,0 +1,13 @@
+<div class="relevant_files__card footer__card">
+    <div class="relevant_files__content">
+      <div class="card__title">
+        <p>Relevant Links</p>
+        <p class="card__title--underline"></p>
+      </div>
+      <% data.relevant_files.each do |file| %>
+        <div class="card__info files__links">
+          <%= link_to "#{file.name}", file.link %>
+        </div>
+      <% end %>
+    </div>
+</div>

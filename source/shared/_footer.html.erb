@@ -1,0 +1,15 @@
+<div class="footer__container">
+  <div class="row">
+    <% data.contacts.each do |contact| %>
+      <div class="col-xs-12 col-lg-3">
+        <%= partial 'components/contacts', locals: { contact: contact } %>
+      </div>
+    <% end %>
+    <div class="col-xs-12 col-lg-3">
+      <%= partial 'components/countries' %>
+    </div>
+    <div class="col-xs-12 col-lg-3">
+      <%= partial 'components/files' %>
+    </div>
+  </div>
+</div>

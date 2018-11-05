@@ -1,0 +1,13 @@
+<div class="countries__card footer__card">
+    <div class="countries__content">
+      <div class="card__title">
+        <p>Language</p>
+        <p class="card__title--underline"></p>
+      </div>
+      <% data.countries.each do |country| %>
+        <div class="card__info">
+          <img src="images/<%= country.country %>.svg" alt="<%= country.code %>"></img>
+        </div>
+      <% end %>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+.video__container {
+  height: 94vh;
+  max-width: 100vw;
+  z-index: 1;
+  display: flex;
+  .video {
+    height: 94vh;
+    max-width: 100vw;
+    margin: 0 auto;
+  }
+}
